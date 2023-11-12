@@ -1,0 +1,275 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <title>DUA SAP</title>
+    
+</head>
+<body>
+    <div id="NHAN-XET" class="demo">
+        <h2>COMMENTS, REVIEWS</h2>
+        <div id="dangky" class="col-md-4  col-sm-12  dangky ">
+            <div class="row">
+                <script type="text/javascript">
+                    var submitted=false;
+                </script>
+            <iframe id="hidden_iframe" name="hidden_iframe" onload="if(submitted){alert('Bạn đã gửi thông tin thành công tới hệ thống!');}" style="display: none;"></iframe>       
+                <div class=" wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
+                    <script type="text/javascript">
+                        var submitted=false;
+                    </script>
+                    <iframe id="hidden_iframe" name="hidden_iframe" onload="if(submitted){window.location='thongbao.html';}" style="display: none;"></iframe>
+                    <form onsubmit="submitted=true;"  enctype="multipart/form-data" target="hidden_iframe" class="text-left"  role="form" id="ss-form" method="GET" action="https://script.google.com/macros/s/AKfycbyW3eAXdqSsdFaU_ASryNrlBISr1NGNnP9ah-kufFwZSOZSo9YJaN5bcmkeH2RP4Hz5/exec">
+                    
+                    <div class="comment">
+                        
+                        <h4>Food you want to comment, review:</h4>
+                        <div style="padding:8px 5px 0px 5px;text-align: center;">
+                            <select required=""   class="form-control"  dir="auto"  value="" name="Món ăn" >
+                              <option>Makapuno</option>
+                              <option>Bánh canh Bến Có</option>
+                              <option>Bánh rây</option>
+                              <option>Bánh tét Trà Cuôn</option>
+                              <option>Bún nước lèo</option>
+                              <option>Bún suông</option>
+                              <option>Chả hoa</option>
+                              <option>Cháo ám</option>
+                              <option>Chù ụ rang me</option>
+                              <option>Harpadon nehereus</option>
+                              
+                              <option>Prahok</option>
+                              <option>Sand worm sauce</option>
+                              <option>Sweet rice flakes</option>
+                              <option>Wood apple</option>
+
+
+                            </select>
+                        </div>
+                    
+                        <div class="nhan-xet-chung">
+                          <h4>General Comments On The Food:</h4>
+                          <textarea id="myTextarea1" rows="4" cols="50" 
+                          placeholder="This is a special dish that I've never known before. The article is well-written; it gave me a fresh perspective on cuisine."></textarea>
+                          <!-- <button style="display: none;" id="copyButton1">Copy</button> -->
+                          <input style="display: none;" id="myInput1" title=""   class="form-control"  dir="auto"  value="" name="Tổng thể" type="text">
+                          <script>
+                              const textarea1 = document.getElementById("myTextarea1");
+                              textarea1.addEventListener("input", function() {
+                                  // var textarea = document.getElementById("myTextarea");
+                                  var input = document.getElementById("myInput1");
+                                  // var copyButton = document.getElementById("copyButton1");
+                                  var textareaValue = textarea1.value;
+                                  const inputText = textarea1.value;
+                                  input.value = inputText ;
+                              });    
+                              textarea1.addEventListener('focus', function () {
+                                if (textarea1.placeholder ==="This is a special dish that I've never known before. The article is well-written; it gave me a fresh perspective on cuisine." ) {
+                                  textarea1.placeholder = '';
+                                }
+                              });
+                              
+                              textarea1.addEventListener('blur', function () {
+                                if (textarea1.value === '') {
+                                  textarea1.placeholder ="This is a special dish that I've never known before. The article is well-written; it gave me a fresh perspective on cuisine." ;
+                                }
+                              });
+                          </script>   
+                      </div>
+
+                      <div class="nhan-xet-chung"><h4>Comments, Reviews On:</h4></div>
+                      <div class="nhan-xet-chung">
+                          <h4>The overview:</h4>
+                          <textarea id="myTextarea2" rows="4" cols="50" 
+                          placeholder="This overview is well-written; it makes me feel like the food is right in front of me."></textarea>
+                          <!-- <button style="display: none;" id="copyButton2">Copy</button> -->
+                          <input style="display: none;" id="myInput2" title=""  class="form-control"  dir="auto"  value="" name="Khái quát chung" type="text">
+                          <script>
+                              const textarea2 = document.getElementById("myTextarea2");
+                              textarea2.addEventListener("input", function() {
+                                  // var textarea = document.getElementById("myTextarea");
+                                  var input = document.getElementById("myInput2");
+                                  // var copyButton = document.getElementById("copyButton2");
+                                  var textareaValue = textarea2.value;
+                                  const inputText = textarea2.value;
+                                  input.value = inputText ;
+                              });    
+                              textarea2.addEventListener('focus', function () {
+                                if (textarea2.placeholder ==="This overview is well-written; it makes me feel like the food is right in front of me." ) {
+                                  textarea2.placeholder = '';
+                                }
+                              });
+                              
+                              textarea2.addEventListener('blur', function () {
+                                if (textarea2.value === '') {
+                                  textarea2.placeholder ="This overview is well-written; it makes me feel like the food is right in front of me." ;
+                                }
+                              });
+                          </script>    
+                      </div>
+
+
+                      <div class="nhan-xet-chung">
+                          <h4>The cooking method:</h4>
+                          <textarea id="myTextarea3" rows="4" cols="50" 
+                          placeholder="The cooking method is excellent; the food has the same taste as in a restaurant."></textarea>
+                          <!-- <button style="display: none;" id="copyButton3">Copy</button> -->
+                          <input style="display: none;" id="myInput3" title=""  class="form-control"  dir="auto"  value="" name="Cách làm món ăn" type="text">
+                          <script>
+                              const textarea3 = document.getElementById("myTextarea3");
+                              textarea3.addEventListener("input", function() {
+                                  // var textarea = document.getElementById("myTextarea");
+                                  var input = document.getElementById("myInput3");
+                                  // var copyButton = document.getElementById("copyButton3");
+                                  var textareaValue = textarea3.value;
+                                  const inputText = textarea3.value;
+                                  input.value = inputText ;
+                              });    
+                              textarea3.addEventListener('focus', function () {
+                                if (textarea3.placeholder ==="The cooking method is excellent; the food has the same taste as in a restaurant." ) {
+                                  textarea3.placeholder = '';
+                                }
+                              });
+                              
+                              textarea3.addEventListener('blur', function () {
+                                if (textarea3.value === '') {
+                                  textarea3.placeholder ="The cooking method is excellent; the food has the same taste as in a restaurant." ;
+                                }
+                              });
+                          </script>   
+                      </div>
+
+
+                      <div class="nhan-xet-chung">
+                          <h4>Enjoyment:</h4>
+                          <textarea id="myTextarea5" rows="4" cols="50" 
+                          placeholder="The enjoyment section is well-written, making the food very appealing."></textarea>
+                          <!-- <button style="display: none;" id="copyButton5">Copy</button> -->
+                          <input style="display: none;" id="myInput5" title=""   class="form-control"  dir="auto"  value="" name="Thưởng thức" type="text">
+                          <script>
+                              const textarea5 = document.getElementById("myTextarea5");
+                              textarea5.addEventListener("input", function() {
+                                  // var textarea = document.getElementById("myTextarea");
+                                  var input = document.getElementById("myInput5");
+                                  // var copyButton = document.getElementById("copyButton5");
+                                  var textareaValue = textarea5.value;
+                                  const inputText = textarea5.value;
+                                  input.value = inputText ;
+                              });    
+                              textarea5.addEventListener('focus', function () {
+                                if (textarea5.placeholder ==="The enjoyment section is well-written, making the food very appealing." ) {
+                                  textarea5.placeholder = '';
+                                }
+                              });
+                              
+                              textarea5.addEventListener('blur', function () {
+                                if (textarea5.value === '') {
+                                  textarea5.placeholder ="The enjoyment section is well-written, making the food very appealing." ;
+                                }
+                              });
+                          </script>   
+                      </div>
+
+                      <div class="nhan-xet-chung">
+                        <h4>Preservation:</h4>
+                        <textarea id="myTextarea8" rows="4" cols="50" 
+                        placeholder="The preservation method is correct; the food doesn't spoil. After some time, it still tastes great."></textarea>
+                        <!-- <button style="display: none;" id="copyButton4">Copy</button> -->
+                        <input style="display: none;" id="myInput8" title=""   class="form-control"  dir="auto"  value="" name="Bảo quản" type="text">
+                        <script>
+                            const textarea8 = document.getElementById("myTextarea8");
+                            textarea8.addEventListener("input", function() {
+                                // var textarea = document.getElementById("myTextarea");
+                                var input = document.getElementById("myInput8");
+                                // var copyButton = document.getElementById("copyButton4");
+                                var textareaValue = textarea8.value;
+                                const inputText = textarea8.value;
+                                input.value = inputText ;
+                            });    
+                            textarea8.addEventListener('focus', function () {
+                              if (textarea8.placeholder ==="The preservation method is correct; the food doesn't spoil. After some time, it still tastes great." ) {
+                                textarea8.placeholder = '';
+                              }
+                            });
+                            
+                            textarea8.addEventListener('blur', function () {
+                              if (textarea8.value === '') {
+                                textarea8.placeholder ="The preservation method is correct; the food doesn't spoil. After some time, it still tastes great." ;
+                              }
+                            });
+                        </script>    
+                    </div>
+
+                    
+                      <div class="nhan-xet-chung">
+                        <h4>The restaurant:</h4>
+                        <textarea id="myTextarea6" rows="4" cols="50" 
+                        placeholder="This restaurant is great. Good service, reasonable prices, and delicious food that suits my taste."></textarea>
+                        <!-- <button style="display: none;" id="copyButton5">Copy</button> -->
+                        <input style="display: none;" id="myInput6" title=""   class="form-control"  dir="auto"  value="" name="Quán ăn" type="text">
+                        <script>
+                            const textarea6 = document.getElementById("myTextarea6");
+                            textarea6.addEventListener("input", function() {
+                                // var textarea = document.getElementById("myTextarea");
+                                var input = document.getElementById("myInput6");
+                                // var copyButton = document.getElementById("copyButton5");
+                                var textareaValue = textarea6.value;
+                                const inputText = textarea6.value;
+                                input.value = inputText ;
+                            });    
+                        
+                            
+                            textarea6.addEventListener('focus', function () {
+                              if (textarea6.placeholder ==="This restaurant is great. Good service, reasonable prices, and delicious food that suits my taste." ) {
+                                textarea6.placeholder = '';
+                              }
+                            });
+                            
+                            textarea6.addEventListener('blur', function () {
+                              if (textarea6.value === '') {
+                                textarea6.placeholder ="This restaurant is great. Good service, reasonable prices, and delicious food that suits my taste." ;
+                              }
+                            });
+                        </script>  
+                    </div>
+
+                    
+                        
+                        
+                        
+                        <!-- <h4>Bình luận, đánh giá về Khái quát chung:</h4>
+                        <input  style="display: none;" id="myInput" title="" required="" class="form-control"  dir="auto"  value="" name="Khái quát chung" type="text"><br/> -->
+                     
+                    </div>
+                    
+                            
+                
+                    <div  id="node-send" class="form-group text-center">
+                        <button id="animated-button" class="btn btn-primary dangkybt" id="ss-submit" value="Gửi đăng ký" name="submit" type="submit">Submit a review</button>
+                        <script>
+                            document.getElementById("animated-button").addEventListener("click", function() {
+                                this.classList.add("clicked");
+                                setTimeout(() => {
+                                    this.classList.remove("clicked");
+                                }, 300); 
+                            });
+                        </script>
+                    </div>
+                     
+                    
+                    </form>
+                    <div class="empty-space"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>

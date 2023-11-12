@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color:#FFF6D8;
+    max-width: 400px;
+   }
+
+body {
+  font-family: 'Merriweather';
+}
+
+div{
+  text-align: justify;
+}
+
+/* ******** ảnh ******** */
+.demo div img{
+    /* tren phai duoi trai */
+    padding:0px 6px 0px 0px;
+    margin:0px 6px 0px 0px;
+    width:140px;
+    height:140px;
+}
+
+.demo .photo {
+  text-align: center;
+  padding:0px 0px 13px 0px;
+}
+
+/* ******************* */
+
+.demo h3{
+  padding:10px 20px 5px 20px;
+  font-size:25px;
+} 
+
+.demo h1{
+  padding:15px 0px 8px 0px;
+  font-size:33px;
+  text-align: center;
+  color:rgb(213, 83, 13);
+}
+
+.demo div{
+  /* padding:0px 20px 5px 20px; */
+  font-size:15px;
+}
+.demo h2{
+  padding:0px 0px 5px 10px;
+  font-size:25px;
+  text-align: left;
+  color:rgb(5, 39, 161);
+}
+
+a {
+  color:rgb(17, 0, 255);
+  
+}
+
+
+/*********************************************/
+#MON-AN h1 {
+  padding: 15px 0px 8px 0px;
+  font-size: 33px;
+  text-align: center;
+  color: rgb(213, 83, 13);
+}
+#MON-AN h2 {
+  padding: 0px 10px 5px 10px;
+  font-size: 25px;
+  text-align: left;
+  color: rgb(5, 39, 161);
+}
+#MON-AN h3 {
+  text-align: left;
+  padding:0px 20px 5px 20px;
+  font-size:20px;
+}
+
+#MON-AN h4{
+  font-size:17px;
+}
+
+
+.MON-AN  {
+  text-align: center;
+}
+
+
+.MON-AN iframe {
+  border:5px solid rgb(120, 119, 119) ;
+  border-radius: 5px;
+}
+
+
+/********************************************/
+
+.khai-quat-chung{
+  padding:0px 10px 5px 10px;
+}
+.cach-lam{
+  padding:0px 10px 5px 20px;
+}
+
+.thuong-thuc{
+  padding:0px 10px 5px 10px;
+}
+
+.bao-quan{
+  padding:0px 10px 5px 10px;
+}
+
+.cre i {
+  padding:0px 10px 5px 0px;
+  text-align:right;
+  font-size:12px;
+}
+.gia-ca{
+  padding:0px 10px 5px 10px;
+}
+.gia-ca b{
+  color:rgb(209, 8, 8);
+  font-size:25px;
+}
+
+.dia-chi{
+  padding:0px 20px 5px 20px;
+}
+
+.dat-hang{
+  padding:0px 20px 5px 20px;
+}
+.cach-dat{
+  padding:0px 20px 5px 30px;
+}
+
+.review {
+  padding:0px 20px 10px 20px;
+
+}
+
+.review b {
+  font-size:18px;
+}
+
+#QUAN-AN h2{
+  padding:10px 5px 10px 5px;
+  font-size:28px;
+  text-align: center;
+  color: rgb(5, 39, 161);
+}
+#QUAN-AN h3{
+  text-align: left;
+  padding:0px 20px 5px 20px;
+  font-size:23px;
+}
+
+/* #QUAN-AN img {
+  width:320px ;
+  height:180px;
+} */
+
+#bien-tau h3 {
+  color:rgb(24, 105, 12);
+  font-size:23px;
+}
+
+
+#VAN-HOA h3 {
+  font-size:28px;
+  padding: 10px 0px 5px 20px;
+  text-align: left;
+}
+
+.introduce {
+  padding: 0px 10px 5px 10px;
+
+}
+
+.ingredient{
+  padding:5px 10px 0px 20px;
+}
+
+.test input{
+  width: 190px;
+  height: 120px;
+  border: 5px solid red;
+  background-color: aqua;
+  /* border:solid 2px; */
+
+}
+
+#NHAN-XET h2 {
+  padding: 10px 5px 10px 5px;
+  font-size: 28px;
+  text-align: center;
+  color: rgb(5, 39, 161);
+}
+
+.comment{
+  padding:0px 10px 5px 10px;
+}
+
+.empty-space{
+  height: 600px;
+}
+
+.nhan-xet-chung textarea{
+  width: 340px;
+  height: 80px;
+  padding:5px 5px 5px 5px;
+  border:solid 2px;
+  text-align: justify;
+  font-size:15px;
+}
+.nhan-xet-chung {
+  padding:0px 10px 0px 0px;
+  margin:0px 10px 0px 0px;
+}
+
+.nhan-xet-chung h4{
+  padding: 14px 5px 5px 5px;
+  font-size:15px;
+}
+
+#NHAN-XET select{
+  width: 180px;
+  height: 34px;
+  border:2px dashed ;
+  font-size:18px;
+  text-align:center;
+  
+}
+
+#NHAN-XET input {
+  font-size:18px;
+  border:solid 2px;
+  text-align: center;
+  width: 120px;
+  height: 25px;
+}
+
+
+#node-send{
+  
+  text-align: center;
+  padding:10px 5px 0px 5px;
+
+  
+}
+
+
+#animated-button {
+  padding: 10px 20px;
+  background-color: #1775b3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  font-size:15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#animated-button.clicked {
+  background-color: #705654;
+}
+
+.cach-dat {
+  line-height: 1.5;
+}
+
+.ma-qr{
+  text-align: center;
+}
+
+
+
+
+
+/*----------------------------------------------------------*/
+/*tooltip ảnh*/
+/* .body-center {text-align:center} */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  /* border: 1px solid black; */
+  /* padding:10px; */
+  /* border-radius: 3px; */
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  /* width: 120px; */
+  width:160px;
+  /* background-color: black; */
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  /* padding: 10px 0; */
+  position: absolute;
+  z-index: 1;
+  top: 130%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transform: translate3d(0,20px,0);
+  transition: all .5s ease-out;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  /* border-width: 5px; */
+  /* border-style: solid; */
+  /* border-color: transparent transparent black transparent; */
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  transform: translate3d(0,0,0)
+}
+/*code mẫu*/
+/*
+    <div class="body-center">
+        <h2>Tooltip bên trái, mũi tên bên phải</h2>
+        <div class="tooltip">click vo day
+          <span class="tooltiptext"><img src="/images/dân tộc-chăm.jpg"/><img src="/images/dân tộc-hoa.jpg"/></span>
+        </div>
+    </div>
+*/
+/*https://canxem.com/tooltip-la-gi-cach-tao-tooltip-bang-css-va-jquery/*/
+/*-------------------------------------------------------------------------*/
+a:hover {
+  text-decoration: none;
+}
+header,
+.demo,
+.demo p {
+  margin: 0 0;
+  /* text-align: center; */
+}
+
+.demo div span {
+  text-align: center;
+}
+/**
+ * c-tooltip Styles
+ */
+/* Base styles for the element that has a c-tooltip */
+[data-c-tooltip] {
+  position: relative;
+  cursor: pointer;
+}
+/* Base styles for the entire c-tooltip */
+[data-c-tooltip]:before,
+[data-c-tooltip]:after {
+  position: absolute;
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out, -webkit-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+  -moz-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out, -moz-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out, transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  pointer-events: none;
+}
+/* Show the entire c-tooltip on hover and focus */
+[data-c-tooltip]:hover:before,
+[data-c-tooltip]:hover:after,
+[data-c-tooltip]:focus:before,
+[data-c-tooltip]:focus:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+/* Base styles for the c-tooltip's directional arrow */
+[data-c-tooltip]:before {
+  z-index: 1001;
+  border: 6px solid transparent;
+  background: transparent;
+  content: "";
+}
+/* Base styles for the c-tooltip's content area */
+[data-c-tooltip]:after {
+  z-index: 1000;
+  padding: 8px;
+  width: 160px;
+  background-color: #000;
+  background-color: rgba(51, 51, 51, 0.9);
+  color: #fff;
+  content: attr(data-c-tooltip);
+  font-size: 14px;
+  line-height: 1.2;
+}
+/* Directions */
+/* Top (default) */
+[data-c-tooltip]:before,
+[data-c-tooltip]:after {
+  bottom: 100%;
+  left: 50%;
+}
+[data-c-tooltip]:before{
+  margin-left: -6px;
+  margin-bottom: -12px;
+  border-top-color: #000;
+  border-top-color: rgba(51, 51, 51, 0.9);
+}
+/* Horizontally align top/bottom c-tooltips */
+[data-c-tooltip]:after {
+  margin-left: -80px;
+}
+[data-c-tooltip]:hover:before,
+[data-c-tooltip]:hover:after,
+[data-c-tooltip]:focus:before,
+[data-c-tooltip]:focus:after{
+  -webkit-transform: translateY(-12px);
+  -moz-transform: translateY(-12px);
+  transform: translateY(-12px);
+}
+
+/* Left */
+[tooltip-position='left']:before,
+[tooltip-position='left']:after {
+  right: 100%;
+  bottom: 50%;
+  left: auto;
+}
+[tooltip-position='left']:before {
+  margin-left: 0;
+  margin-right: -12px;
+  margin-bottom: 0;
+  border-top-color: transparent;
+  border-left-color: #000;
+  border-left-color: rgba(51, 51, 51, 0.9);
+}
+[tooltip-position='left']:hover:before,
+[tooltip-position='left']:hover:after,
+[tooltip-position='left']:focus:before,
+[tooltip-position='left']:focus:after {
+  -webkit-transform: translateX(-12px);
+  -moz-transform: translateX(-12px);
+  transform: translateX(-12px);
+}
+/* Bottom */
+[tooltip-position='bottom']:before,
+[tooltip-position='bottom']:after {
+  top: 100%;
+  bottom: auto;
+  left: 50%;
+}
+[tooltip-position='bottom']:before {
+  margin-top: -12px;
+  margin-bottom: 0;
+  border-top-color: transparent;
+  border-bottom-color: #000;
+  border-bottom-color: rgba(51, 51, 51, 0.9);
+}
+[tooltip-position='bottom']:hover:before,
+[tooltip-position='bottom']:hover:after,
+[tooltip-position='bottom']:focus:before,
+[tooltip-position='bottom']:focus:after {
+  -webkit-transform: translateY(12px);
+  -moz-transform: translateY(12px);
+  transform: translateY(12px);
+}
+/* Right */
+[tooltip-position='right']:before,
+[tooltip-position='right']:after {
+  bottom: 50%;
+  left: 100%;
+}
+[tooltip-position='right']:before {
+  margin-bottom: 0;
+  margin-left: -12px;
+  border-top-color: transparent;
+  border-right-color: #000;
+  border-right-color: rgba(51, 51, 51, 0.9);
+}
+[tooltip-position='right']:hover:before,
+[tooltip-position='right']:hover:after,
+[tooltip-position='right']:focus:before,
+[tooltip-position='right']:focus:after {
+  -webkit-transform: translateX(12px);
+  -moz-transform: translateX(12px);
+  transform: translateX(12px);
+}
+/* Move directional arrows down a bit for left/right c-tooltips */
+[tooltip-position='left']:before,
+[tooltip-position='right']:before {
+  top: 3px;
+}
+/* Vertically center c-tooltip content for left/right c-tooltips */
+[tooltip-position='left']:after,
+[tooltip-position='right']:after {
+  margin-left: 0;
+  margin-bottom: -16px;
+}
+/*
+    <div class="container">
+        <!-- <h1>CSS Directional c-tooltips</h1> -->
+        <div class="demo">
+          <p><code>data-c-tooltip</code> <a href="#" data-c-tooltip="I’m the c-tooltip text.">Hover me!</a></p>
+          <p><code>[tooltip-position='top'] </code> <a href="#" class="c-tooltip-top" data-c-tooltip="I’m the c-tooltip text.">Hover me!</a></p>
+          <p><code>[tooltip-position='right'] </code> <a href="#" tooltip-position='right' data-c-tooltip="I’m the c-tooltip text.">Hover me!</a></p>
+          <p><code>[tooltip-position='bottom'] </code> <a href="#" tooltip-position='bottom' data-c-tooltip="I’m the c-tooltip text.">Hover me!</a></p>
+          <p><a href="#" tooltip-position='left' data-c-tooltip="I’m the c-tooltip text.">Hover me!</a> <code>[tooltip-position='left'] </code></p>
+        </div>
+      </div>
+*/
