@@ -206,7 +206,7 @@ a {
 }
 
 .nhan-xet-chung textarea{
-  width: 320px;
+  width: 340px;
   height: 80px;
   padding:5px 5px 5px 5px;
   border:solid 2px;
@@ -242,15 +242,12 @@ a {
 
 
 #node-send{
-  
   text-align: center;
-  padding:10px 5px 0px 5px;
-
-  
+  padding:10px 5px 30px 5px;
 }
 
 
-#animated-button {
+#animated-button,#redirectButton,#backButton {
   padding: 10px 20px;
   background-color: #1775b3;
   color: #fff;
@@ -263,7 +260,7 @@ a {
   border-radius: 5px;
 }
 
-#animated-button.clicked {
+#animated-button.clicked,#redirectButton.clicked,#backButton.clicked {
   background-color: #705654;
 }
 
@@ -274,6 +271,32 @@ a {
 .ma-qr{
   text-align: center;
 }
+
+#DANH-GIA h2 {
+  padding: 10px 5px 10px 5px;
+  font-size: 28px;
+  text-align: center;
+  color: rgb(5, 39, 161);
+}
+
+
+#DANH-GIA  h3 {
+  font-size: 22px;
+  text-align: left;
+  padding:0px 5px 5px 10px;
+}
+#DANH-GIA ul {
+  padding:10px 10px 10px 30px;
+}
+
+.date {
+  padding: 0px 5px 5px 10px;
+  font-weight: bold;
+}
+.gop-y{
+  padding:0px 5px 5px 15px;
+}
+
 
 
 
