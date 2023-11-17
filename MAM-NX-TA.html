@@ -234,6 +234,20 @@
                      
                     
                     </form>
+                    <div id="node-send">
+                      <button id="redirectButton" class="btn btn-primary dangkybt">VIEW ALL REVIEWS</button>
+                      <script>
+                      document.getElementById("redirectButton").addEventListener("click", function() {
+                        // Thay đổi đường dẫn dưới đây bằng đường dẫn tới file bạn muốn chuyển hướng đến
+                        this.classList.add("clicked");
+                                setTimeout(() => {
+                                  window.location.href = "MAM-DG-TA.html";
+                                    this.classList.remove("clicked");
+                                }, 300);  
+                        
+                      });
+                      </script>
+                   </div>
                     <div class="empty-space"></div>
                 </div>
             </div>
